@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <script>
+      tailwind.config = {
+        plugins: [daisyui],
+      };
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Exile&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>tailwindcss</title>
+  </head>
+  <body class="bg-[#121214]">
+    <header>
+      <div class="bg-[#121214] py-5">
+        <nav
+          class="max-w-[90%] mx-auto flex justify-between items-center font-[Roboto]"
+        >
+          <div class="flex items-center gap-7 py-6">
+            <a href="">
+              <img src="img/IMAGE (3).png" alt="" />
+            </a>
+            <ul class="flex items-center text-[#A6A8AD] gap-6">
+              <li><a href="#">Sounds</a></li>
+              <li><a href="#">Skills</a></li>
+              <li><a href="#">Plugins</a></li>
+              <li><a href="#">Studio</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+          </div>
+          <button class="bg-[#fff] py-2 px-5 rounded-3xl">Sign up</button>
+        </nav>
+      </div>
+    </header>
+
+    <div class="bg-[url(img/hami.png)] h-screen w-full bg-no-repeat bg-cover">
+      <div class="mx-auto max-w-[90%] font-[Roboto] flex flex-col justify-center h-full">
+        <h2 class="text-white max-w-[35%] text-7xl">
+          Step into the producer’s playground
+        </h2>
+        <p class="text-white text-2x1 max-w-[22%] mt-[25px]">
+          Explore the world’s best sample library and an unmatched marketplace
+          of plugins and DAWs.
+        </p>
+        <button class="btn btn-primary mt-[44px] hover:bg-slate-600 border-0 w-max">
+          Try free
+        </button>
+      </div>
+    </div>
+
+    <div class="bg-[#121214]">
+      <div class="mx-auto max-w-[90%]">
+        <img class="ml-[799px]" src="img/IMAGE (7).png" alt="" />
+        <h3 class="text-white  text-center mt-[25px] text-4xl   ">About Catalog</h3>
+        <div class="flex justify-between items-center mt-[25px]">
+          <div class="font-[Roboto]">
+            <h4 class="text-white text-4xl">
+              A catalog so deep, it’s dangerous.
+            </h4>
+            <p class="text-white text-3x1 max-w-[62%] mt-[12px]">
+              Expertly created and curated samples in any style imaginable.
+              Start swimming in sound.
+            </p>
+            <button
+              class="btn btn-primary mt-[18px] hover:bg-slate-900 border-3"
+            >
+              Explore Sounds
+            </button>
+          </div>
+          <img class="" src="img/IMAGE (6).png" alt="" />
+        </div>
+      </div>
+    </div>
+
+
+    <div class="bg-[#121214]">
+      <div class="mx-auto max-w-[90%]">
+        <div class="flex justify-between items-center mt-[25px]">
+          <img class="" src="img/IMAGE (11).png" alt="" />
+          <div class="font-[Roboto] ml-120 mt-30">
+            <h4 class="text-white text-4xl">
+              A workflow that actually flows.
+            </h4>
+            <p class="text-white text-3x1 max-w-[72%] ml-22 mt-[12px]">
+              Preview samples in your track’s key and tempo, drag and drop sounds into your DAW, and organize your favorite samples, MIDI and presets in one place.
+            </p>
+            <button
+              class="btn btn-primary mt-[18px]  ml-97 hover:bg-slate-900 border-3 "
+            >
+            Workflow
+            </button>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <main class="max-w-[90%] mx-auto mt-32 flex gap-30 justify-center mb-[50px]">
+      <div class="bg-white max-w-[33%] rounded-lg p-8 ">
+        <div class="flex items-center justify-center">
+          <img src="img/IMAGE (8).png" alt="" />
+        </div>
+        <p class="max-w-[290px] text-xl font-bold mt-8 mb-4">
+          I can always find what I’m looking for on Splice, whether it’s the
+          exact sound I want or just a bit of inspiration.
+        </p>
+        <a href="text-[#767676]">Andrew Huang</a>
+      </div>
+
+      <div class="bg-white max-w-[33%] rounded-lg p-8">
+        <div class="flex items-center justify-center">
+          <img src="img/IMAGE (9).png" alt="" />
+        </div>
+        <p class="max-w-[290px] text-xl font-bold mt-8 mb-4">
+          Finally a way to buy plugins that works. By paying a little at a time,
+          producers can get legit access to the top VSTs.
+        </p>
+        <a href="text-[#767676]">KSHMR</a>
+      </div>
+
+      <div class="bg-white max-w-[33%] rounded-lg p-8">
+        <div class="flex items-center justify-center">
+          <img src="img/IMAGE (10).png" alt="" />
+        </div>
+        <p class="max-w-[290px] text-xl font-bold mt-8 mb-4">
+          It’s been fun to dive into Splice’s creator community and explore
+          tools that support my own creative process.
+        </p>
+        <a href="text-[#767676]">Kesha Lee</a>
+      </div>
+    </main>
+
+
+
+    <main>
+      <div class="bg-[#344346] py-4">
+        <nav
+          class="max-w-[90%] mx-auto flex justify-between items-center font-[Roboto]"
+        >
+          <div class="flex items-center gap-7 py-6">
+           
+            <ul class="flex items-center text-[#A6A8AD] gap-6">
+              <li><a href="#">© 2022 Splice.com All Rights Reserved</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Help</a></li>
+            
+            </ul>
+          </div>
+          
+        </nav>
+      </div>
+    </main>
+  </body>
+</html>
